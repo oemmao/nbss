@@ -1,0 +1,142 @@
+@CHARSET "UTF-8";
+/*header*/
+.mainHead {
+	max-height: 500px;
+	background-color: #ffffff;
+}
+.indexImg {
+	width: 100%;
+	max-width: 300px;
+	display: block;
+    margin: 50px auto;
+}
+
+/*section*/
+.mainSection {
+	height: 500px;
+	background-color: yellow;
+}
+.mainArticle-bookList {
+	/* height: 600px; */
+	/* background-color: #E6E6E6; */
+	margin: 50px 0;
+	/* border-bottom: 1px solid #BDBDBD; */
+	text-align: center;	
+}
+.mainArticle-csInfo {
+	height: 200px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #BDBDBD;
+	text-align: center;
+/* 	display : inline; */
+	
+}
+.mainArticle-csInfo img{
+	width:150px;
+}
+.mainArticle-csInfo table{
+	margin:auto;
+	text-align: left;
+}
+.mainArticle-bookList p {
+	text-align: center;
+	font-size:30px;
+}
+.mainArticle-bookTable table{
+	width: 50%;
+	margin:auto;
+/* 	margin-right:auto; */
+/* 	text-align: center; */
+/* 	vertical-align:middle; */
+	
+}
+.mainArticle-bookList ul li {
+	list-style-type:none;
+}
+
+.indeximg{
+	width : 250px;
+}
+
+.mainArticle-adminNewBook{
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+	
+}
+.mainArticle-NewBookMana table{
+	margin : auto;
+}
+.mainArticle-adminBook{
+	background-color: #E6E6E6;
+	border-bottom: 1px solid #BDBDBD;
+	text-align : center;
+}
+.mainArticle-adminBook table{
+	margin : auto;
+}
+.insertbook{
+	width:100%;
+}
+
+
+/*footer*/
+.mainFooter {
+	height: 150px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #BDBDBD;
+	text-align: center;
+}
+/*memberUpdate*/
+.memberPage-form {
+	width: 500px;
+	margin: 0 auto;
+}
+/*button*/
+.button-form {
+	width: 100%;
+	margin: 0 auto;
+}
+.button-align {
+	text-align: center;
+}
+/*productList*/
+.productTable td{
+	padding: 10px;
+}
+.productImg {
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+}
+
+/*adminBoard*/
+.column {
+	float: left;
+	padding: 15px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.menu {
+	width: 100%;
+}
+
+.content {
+	width: 75%;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	padding: 8px;
+	margin-bottom: 8px;
+	color: #ffffff;
+}

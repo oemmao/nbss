@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Book in the Box</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	
+<header class="mainHead">
+	<div>
+		<a href="index.html"><img src="image/bookinthebox.jpg" class="indexImg"></a>
+	</div>
+</header>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav ">
+				<li><a href="index.html">관리자님, 로그아웃</a></li>
+				<!-- 			<li><a href="<%=route %>/member/memberInsert.html">회원가입</a></li> -->
+				<li class="dropdown disabled"><a href="#"
+					class="dropdown-toggle disabled" data-toggle="dropdown"
+					role="button" aria-expanded="false">마이페이지 <span class="caret"></span>
+				</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">정보수정</a></li>
+						<li><a href="#">내가 받은 책
+								목록</a></li>
+						<li class="divider"></li>
+						<li><a href="#">추가할거 하면 됨</a></li>
+						<li class="divider"></li>
+						<li><a href="#">추가할거 하면 됨</a></li>
+					</ul>
+				<li class="disabled"><a href="#">정기배송</a></li>
+				<li class="disabled"><a href="#">커뮤니티</a></li>
+				<li class="disabled"><a href="#">도움말</a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"
+					data-toggle="dropdown" role="button" aria-expanded="false">관리자페이지
+						<span class="caret"></span>
+				</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="adminNewBook.html">신간도서 관리</a></li>
+						<li><a href="adminBookList.html">이월도서 리스트</a></li>
+						<li class="divider"></li>
+						<li><a href="adminBoardMain.html">게시판 관리</a></li>
+					</ul>
+			</ul>
+		</div>
+	</div>
+</nav>
+	<section> <article class="mainArticle-adminBook">
+	<fieldset>
+		<legend>신간도서등록</legend>
+		<div class="mainArticle-insertBook">
+			<table>
+				<tr>
+					<th>도서명</th>
+					<td colspan="3"><input type="text" id="bookName"
+						class="insertbook"></td>
+				</tr>
+				<tr>
+					<th>저자</th>
+					<td colspan="3"><input type="text" id="author"
+						class="insertbook"></td>
+				</tr>
+				<tr>
+					<th>출간일</th>
+					<td colspan="3"><input type="text" id="date"
+						class="insertbook"></td>
+				</tr>
+				<tr>
+					<th>고유번호</th>
+					<td colspan="3"><input type="text" id="bno" class="insertbook"></td>
+				</tr>
+
+				<tr>
+					<th>태그</th>
+					<td><select id="AA">
+							<option value="a1">슬퍼요</option>
+							<option value="a2">기뻐요</option>
+							<option value="a3">용기가 필요해요</option>
+							<option value="a4">심심해요</option>
+							<option value="a5">무기력해요</option>
+					</select></td>
+					<td><select id="BB">
+							<option value="b1">사랑</option>
+							<option value="b2">역사</option>
+							<option value="b3">진로</option>
+							<option value="b4">자기개발</option>
+							<option value="b5">공포
+							<option>
+					</select></td>
+					<td><select id="CC">
+							<option value="c1">얇은책</option>
+							<option value="c2">보통책</option>
+							<option value="c3">두꺼운책</option>
+					</select></td>
+				</tr>
+				<!-- 	<tr>
+						<td><select id="BB" class="insertbook">
+							<option value="b1">사랑</option>
+							<option value="b2">역사</option>
+							<option value="b3">진로</option>
+							<option value="b4">자기개발</option>
+							<option value="b5">공포<option>
+							</select></td>
+					</tr>
+					<tr>
+						<td><select id="CC"class="insertbook">
+							<option value="c1">얇은책</option>
+							<option value="c2">보통책</option>
+							<option value="c3">두꺼운책</option>							
+							</select></td>
+					</tr> -->
+				<tr>
+					<th>이미지</th>
+					<td colspan="3"><input type="file" class="insertbook"
+						id="bookImg"></td>
+				</tr>
+				<tr>
+					<td colspan="4"><a href="adminNewBook.html"><input
+							type="submit" value="등록"></a></td>
+				</tr>
+
+
+			</table>
+		</div>
+	</fieldset>
+	</article> 
+<article class="mainArticle-csInfo">
+	<table>
+		<tr>
+			<td rowspan="3"><img src="image/bookinthebox.jpg" class="csImg"></td>
+			<td rowspan="1"><h3>CS CENTER</h3></td>
+			<td><h4>평일 10:00 - 17:00</h4></td>				
+		</tr>
+		<tr>
+			<td rowspan="2"><h2>070-5555-5555</h2></td>
+			<td><h4>(점심시간 13:00 - 14:00)</h4></td>
+		</tr>
+		<tr>
+			<td><h4>휴무 토요일.일요일.공휴일</h4></td>
+		</tr>
+	</table>		
+	
+</article> </section>
+	<footer class="mainFooter">
+	<b>Company : 북인더박스(BOOK IN THE BOX)</b><br>
+	<b>Owner : 김선화/강태종/김진솔</b><br>
+	<b>CPO : 김선화 (bookinthebox@naver.com)</b><br>
+	<b>Address : (00000)서울특별시 금천구 금은동 100 2층</b><br>
+	<b>COPYRIGHT ⓒ 2017 BOOK IN THE BOX. ALL RIGHTS RESERVED.</b><br>
+</footer>
+</body>
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</html>
