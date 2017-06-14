@@ -70,7 +70,7 @@
 											<tr>
 												<th><input type="checkbox" name="checkRow"></th>
 												<td>2</td>
-												<td><a href="adminBoardInsert.jsp">..... 조카 크레파스
+												<td><a href="/nbss/admin(=jdbc)/insert">..... 조카 크레파스
 														어디있어요?</a></td>
 												<td>악플다는편이야</td>
 												<td>2017.06.13</td>
