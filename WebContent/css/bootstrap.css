@@ -3651,13 +3651,12 @@ tbody.collapse.in {
 .btn-group,
 .btn-group-vertical {
   position: relative;
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-block;  
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
   position: relative;
-  float: left;
+  float: right;
 }
 .btn-group > .btn:hover,
 .btn-group-vertical > .btn:hover,
@@ -5465,6 +5464,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-body {
   padding: 15px;
+  
 }
 .panel-heading {
   padding: 10px 15px;

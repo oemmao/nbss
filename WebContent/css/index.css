@@ -94,7 +94,6 @@
 	width:100%;
 }
 
-
 /*footer*/
 .mainFooter {
 	height: 150px;
@@ -139,8 +138,9 @@
 
 /*adminBoard*/
 .column {
-	float: left;
+	float: center;
 	padding: 15px;
+	margin:auto;
 }
 
 .clearfix::after {
