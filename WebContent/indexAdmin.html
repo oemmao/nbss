@@ -5,51 +5,47 @@
 <title>Book in the Box</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
 </head>
-<body>
-	
-<header class="mainHead">
-	<div>
-		<a href="index.html"><img src="image/bookinthebox.jpg" class="indexImg"></a>
-	</div>
-</header>
-<nav class="navbar navbar-default">
+<body>	
+	<header class="mainHead">
+		<div>
+			<a href="index.html"><img src="image/bookinthebox.jpg" class="indexImg"></a>
+		</div>
+	</header>
+	<nav class="navbar navbar-default">
 	<div class="container-fluid">
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
-				<li><a href="index.html">관리자님, 로그아웃</a></li>
-				<!-- 			<li><a href="<%=route %>/member/memberInsert.html">회원가입</a></li> -->
-				<li class="dropdown disabled"><a href="#"
-					class="dropdown-toggle disabled" data-toggle="dropdown"
+				<li><a href="index.html" class="menu-font">관리자님, 로그아웃</a></li>
+				<li class="dropdown disabled">
+					<a href="#" class="dropdown-toggle disabled menu-font" data-toggle="dropdown"
 					role="button" aria-expanded="false">마이페이지 <span class="caret"></span>
-				</a>
+					</a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">정보수정</a></li>
-						<li><a href="#">내가 받은 책
-								목록</a></li>
-						<li class="divider"></li>
-						<li><a href="#">추가할거 하면 됨</a></li>
-						<li class="divider"></li>
-						<li><a href="#">추가할거 하면 됨</a></li>
+						<li><a href="#" class="menu-font">정보수정</a></li>
+						<li><a href="#" class="menu-font">내가 받은 책 목록</a></li>
 					</ul>
-				<li class="disabled"><a href="#">소개</a></li>
-				<li class="disabled"><a href="#">정기배송</a></li>
-				<li class="disabled"><a href="#">커뮤니티</a></li>
-				<li class="disabled"><a href="#">도움말</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle"
-					data-toggle="dropdown" role="button" aria-expanded="false">관리자페이지
-						<span class="caret"></span>
-				</a>
+				<li class="disabled"><a href="#" class="menu-font">정기배송</a></li>
+				<li class="disabled"><a href="#" class="menu-font">커뮤니티</a></li>
+				<li class="disabled"><a href="#" class="menu-font">도움말</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle menu-font" data-toggle="dropdown"
+					role="button" aria-expanded="false">관리자페이지 <span class="caret"></span>
+					</a>
 					<ul class="dropdown-menu" role="menu">
-						<li><a href="adminNewBook.html">신간도서 관리</a></li>
-						<li><a href="adminBookList.html">이월도서 리스트</a></li>
+						<li><a href="adminNewBook.html" class="menu-font">신간도서 관리</a></li>
+						<li><a href="adminBookList.html" class="menu-font">이월도서 리스트</a></li>
 						<li class="divider"></li>
-						<li><a href="adminBoardMain.html">게시판 관리</a></li>
+						<li><a href="adminBoardMain.html" class="menu-font">게시판 관리</a></li>
 					</ul>
 			</ul>
 		</div>
 	</div>
-</nav>
+	</nav>
 	<section>
 		<article class="mainArticle-bookList">
 			<fieldset>
