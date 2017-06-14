@@ -5,7 +5,7 @@
 %>
 <header class="mainHead">
 	<div>
-		<a href="<%=route %>/index.jsp"><img src="image/bookinthebox.jpg"
+		<a href="<%=route %>/index.jsp"><img src="<%=route %>/image/bookinthebox.jpg"
 			class="indexImg"></a>
 	</div>
 </header>
