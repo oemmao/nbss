@@ -1,8 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%
-	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
-%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -14,7 +9,43 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<jsp:include page="/layout/top.jsp" flush="false" />
+	<header class="mainHead">
+		<div>
+			<a href="../index.jsp"><img src="../image/bookinthebox.jpg"
+				class="indexImg"></a>
+		</div>
+	</header>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav ">
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menu-font" data-toggle="dropdown"
+						role="button" aria-expanded="false">마이페이지 <span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="memberPage.html" class="menu-font">정보수정</a></li>
+							<li><a href="myOrderList.html" class="menu-font">내가 받은 책
+									목록</a></li>
+						</ul>
+					<li><a href="productList.html" class="menu-font">정기배송</a></li>
+					<li><a href="boardMain.html" class="menu-font">커뮤니티</a></li>
+					<li><a href="help.html" class="menu-font">도움말</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menu-font" data-toggle="dropdown"
+						role="button" aria-expanded="false">회원 <span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="../login.html" class="menu-font">로그인</a></li>
+							<li><a href="memberInsert.html" class="menu-font">회원가입</a></li>
+						</ul>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<section>
 	<h2>
 		<div align="center">My Page</div>
@@ -164,14 +195,36 @@
 			</div>
 			<div class="form-group">
 				<div class="col-lg-10 col-lg-offset-2 button-align">
-					<a href="<%=route %>/index.jsp"><input type="button" class="btn btn-default " value="처음으로"></a>
+					<a href="../index.jsp"><input type="button" class="btn btn-default " value="처음으로"></a>
 				</div>
 			</div>
 		</fieldset>
 	</form>
 	</article> 
 	</section>
-	<jsp:include page="/layout/bottom.jsp" flush="false" />
+		<footer class="mainFooter">
+		<table class="footer-cs-table">
+			<tr>
+				<td class="footer-mainImg"><img src="../image/bookinthebox.jpg" class="csImg"></td>
+				<td class="footer-CompanyInfo">Company : 북인더박스(BOOK IN THE BOX)<br>
+					Owner : 김선화/강태종/김진솔<br> CPO : 김선화 (bookinthebox@naver.com)<br>
+					Address : (00000)서울특별시 금천구 금은동 100 2층<br>
+					COPYRIGHT ⓒ 2017 BOOK	IN THE BOX. ALL RIGHTS RESERVED.
+				</td>
+				<td class="footer-CSInfo">CS CENTER<br>
+					평일 10:00 - 17:00<br> 070-5555-5555<br>
+					(점심시간 13:00 - 14:00)<br>
+					휴무 토요일.일요일.공휴일
+				</td>
+				<td>
+					<span class="glyphicon glyphicon-user"></span>
+					<span class="glyphicon glyphicon-user icons"></span>
+				</td>
+			</tr>
+	
+		</table>
+		</div>
+	</footer>
 </body>
 
 <script
