@@ -26,15 +26,13 @@
 	/* border-bottom: 1px solid #BDBDBD; */
 	text-align: center;	
 }
-<<<<<<< HEAD
-/* .mainArticle-csInfo {
-=======
+
+.mainArticle-csInfo {
+}
 .boardlegend{
 	text-align: center;
-	
 }
 .mainArticle-csInfo {
->>>>>>> 2f8582dfbd6c1afcd17327eaca91a4cfc42250a8
 	height: 200px;
 	background-color: #ffffff;
 	border-bottom: 1px solid #BDBDBD;
@@ -48,7 +46,7 @@
 .mainArticle-csInfo table{
 	margin:auto;
 	text-align: left;
-} */
+}
 .mainArticle-bookList p {
 	text-align: center;
 	font-size:30px;
@@ -65,17 +63,16 @@
 .mainArticle-bookList ul li {
 	list-style-type:none;
 }
-<<<<<<< HEAD
+
 
 .bookImg-main{
-=======
+	width: 150px;
+}
+
 .boardInsertTable table{
 	margin:auto;
 }
-.indeximg{
->>>>>>> 2f8582dfbd6c1afcd17327eaca91a4cfc42250a8
-	width : 250px;
-}
+
 
 .mainArticle-adminNewBook{
 	border-bottom: 1px solid #BDBDBD;
