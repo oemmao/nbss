@@ -23,6 +23,10 @@
 	/* border-bottom: 1px solid #BDBDBD; */
 	text-align: center;	
 }
+.boardlegend{
+	text-align: center;
+	
+}
 .mainArticle-csInfo {
 	height: 200px;
 	background-color: #ffffff;
@@ -53,7 +57,9 @@
 .mainArticle-bookList ul li {
 	list-style-type:none;
 }
-
+.boardInsertTable table{
+	margin:auto;
+}
 .indeximg{
 	width : 250px;
 }
@@ -139,4 +145,29 @@
 	padding: 8px;
 	margin-bottom: 8px;
 	color: #ffffff;
+}
+/*board aside*/
+.mainAside-board{
+	margin-bottom: 0px;
+/* 	border: 1px solid #CCC; */
+	float: left;
+	width: 200px;
+	height:300px;	
+	padding-top:15px;
+	padding-left:30px;
+	padding-right:10px;
+	margin-top:50px;
+	
+}
+.btn-group-vertical{
+	padding: 8px;
+	margin-bottom: 8px;
+	vartical-align: middle;
+}
+.mainboard{
+	width:80%;
+	margin:auto;
+}
+.mainArticle-booklist{
+	margin-botto: 0px;
 }
