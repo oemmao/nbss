@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,14 +15,14 @@
 	<section> 
 	<article class="mainArticle-bookList">
 	<fieldset>
-		<h2 class="" >6ìì ë°°ì¡ ëì</h2>
+		<h2 class="" >6월의 배송 도서</h2>
 		<div class="row">
 		<div class="mainArticle-bookTable">
 			<div class="col-sm-6 col-md-2">
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Aëì</h3>
+						<h3>6월 A도서</h3>
 					</div>
 				</div>
 			</div>
@@ -30,7 +30,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Bëì</h3>
+						<h3>6월 B도서</h3>
 					</div>
 				</div>
 			</div>
@@ -38,7 +38,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Cëì</h3>
+						<h3>6월 C도서</h3>
 					</div>
 				</div>
 			</div>
@@ -46,7 +46,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Dëì</h3>
+						<h3>6월 D도서</h3>
 					</div>
 				</div>
 			</div>
@@ -54,7 +54,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Eëì</h3>
+						<h3>6월 E도서</h3>
 					</div>
 				</div>
 			</div>
@@ -62,59 +62,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Fëì</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
-		<div class="row">
-		<div class="mainArticle-bookTable">
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Jëì</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Këì</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Lëì</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Mëì</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Nëì</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6ì Oëì</h3>
+						<h3>6월 F도서</h3>
 					</div>
 				</div>
 			</div>
@@ -126,7 +74,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Jëì</h3>
+						<h3>6월 J도서</h3>
 					</div>
 				</div>
 			</div>
@@ -134,7 +82,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Këì</h3>
+						<h3>6월 K도서</h3>
 					</div>
 				</div>
 			</div>
@@ -142,7 +90,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Lëì</h3>
+						<h3>6월 L도서</h3>
 					</div>
 				</div>
 			</div>
@@ -150,7 +98,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Mëì</h3>
+						<h3>6월 M도서</h3>
 					</div>
 				</div>
 			</div>
@@ -158,7 +106,7 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Nëì</h3>
+						<h3>6월 N도서</h3>
 					</div>
 				</div>
 			</div>
@@ -166,7 +114,59 @@
 				<div class="thumbnail">
 					<img src="image/book.jpg" class="bookImg-main" alt="...">
 					<div class="caption">
-						<h3>6ì Oëì</h3>
+						<h3>6월 O도서</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 J도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 K도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 L도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 M도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 N도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 O도서</h3>
 					</div>
 				</div>
 			</div>
@@ -175,9 +175,8 @@
 	</fieldset>
 	</article>
 	</section>
-	
+	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
-
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script
