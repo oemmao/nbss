@@ -35,10 +35,20 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>
-				/WEB-INF/service.xml, 
-				/WEB-INF/entity.xml,
-				/WEB-INF/controller.xml,
-				/WEB-INF/commonConcern.xml
+			</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>dispatcherAdmin</servlet-name>
+		<servlet-class>
+			org.springframework.web.servlet.DispatcherServlet
+		</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>
+				/WEB-INF/controllerAdmin.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
@@ -51,4 +61,9 @@
 		<url-pattern>/jdbc/*</url-pattern>
 	</servlet-mapping>
 
+
+	<servlet-mapping>
+		<servlet-name>dispatcherAdmin</servlet-name>
+		<url-pattern>/admin/*</url-pattern>
+	</servlet-mapping>
 </web-app>

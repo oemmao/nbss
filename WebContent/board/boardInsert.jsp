@@ -27,7 +27,7 @@
 				<div class="column content">
 					<div class="panel panel-default">
 						<div class="panel-body" align="center">
-							<fieldset>
+							<fieldset class="boardField">
 								<legend>글쓰기</legend>
 								<div class="form-group">
 									<label for="inputEmail" class="col-lg-2 control-label">제목</label>
