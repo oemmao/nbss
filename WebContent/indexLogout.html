@@ -5,90 +5,226 @@
 <title>Book in the Box</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<header class="mainHead"> 
-	<div>
-		<a href="indexLogout.html"><img src="image/bookinthebox.jpg" class="indexImg" ></a>
-	</div>
+	<header class="mainHead">
+		<div>
+			<a href="index.jsp"><img src="image/bookinthebox.jpg"
+				class="indexImg"></a>
+		</div>
 	</header>
 	<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav ">
-			<li><a href="#">OOO님, 로그아웃</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">마이페이지
-						<span class="caret"></span>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav ">
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menu-font" data-toggle="dropdown"
+						role="button" aria-expanded="false">마이페이지 <span class="caret"></span>
 					</a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="memberPage.html">정보수정</a></li>
-						<li><a href="myOrderList.html">내가 받은 책 목록</a></li>
-					</ul>	
-				<li><a href="productList.html">정기배송</a></li>
-				<li><a href="boardMain.html">커뮤니티</a></li>
-				<li><a href="help.html">도움말</a></li>
-			</ul>
-		</div>
-	</div>
-	</nav>
-	<section>
-	<article class="mainArticle-bookList">
-		<fieldset>
-			<legend>6월의 배송 도서</legend>
-			<div class="mainArticle-bookTable">
-				<table>
-					<tr>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 A도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 B도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 C도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 D도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 E도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 F도서</td>
-					</tr>
-					<tr>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 G도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 H도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 I도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 J도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 K도서</td>
-						<td><img src="image/book.jpg" class="indeximg"><br>
-							6월 L도서</td>
-					</tr>
-				</table>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="html/memberPage.html" class="menu-font">정보수정</a></li>
+							<li><a href="html/myOrderList.html" class="menu-font">내가 받은 책
+									목록</a></li>
+						</ul>
+					<li><a href="html/productList.html" class="menu-font">정기배송</a></li>
+					<li><a href="html/boardMain.html" class="menu-font">커뮤니티</a></li>
+					<li><a href="html/help.html" class="menu-font">도움말</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="html/index.html" class="menu-font">OOO님, 로그아웃</a></li>	
+				</ul>
 			</div>
-		</fieldset>
-	</article>
-	<article class="mainArticle-csInfo">
-	<table>
-		<tr>
-			<td rowspan="3"><img src="image/bookinthebox.jpg"
-				class="csImg"></td>
-			<td rowspan="1"><h3>CS CENTER</h3></td>
-			<td><h4>평일 10:00 - 17:00</h4></td>
-		</tr>
-		<tr>
-			<td rowspan="2"><h2>070-5555-5555</h2></td>
-			<td><h4>(점심시간 13:00 - 14:00)</h4></td>
-		</tr>
-		<tr>
-			<td><h4>휴무 토요일.일요일.공휴일</h4></td>
-		</tr>
-	</table>
+		</div>
+	</nav>
+	<section> 
+	<article class="mainArticle-bookList">
+	<fieldset>
+		<h2 class="section-title" >6월의 배송 도서</h2>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 A도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 B도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 C도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 D도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 E도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 F도서</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 J도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 K도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 L도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 M도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 N도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 O도서</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 J도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 K도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 L도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 M도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 N도서</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 O도서</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</fieldset>
 	</article>
 	</section>
-	<jsp:include page="/layout/bottom.jsp" flush="false" />
+	<footer class="mainFooter">
+		<table class="footer-cs-table">
+			<tr>
+				<td class="footer-mainImg"><img src="image/bookinthebox.jpg" class="csImg"></td>
+				<td class="footer-CompanyInfo">Company : 북인더박스(BOOK IN THE BOX)<br>
+					Owner : 김선화/강태종/김진솔<br> CPO : 김선화 (bookinthebox@naver.com)<br>
+					Address : (00000)서울특별시 금천구 금은동 100 2층<br>
+					COPYRIGHT ⓒ 2017 BOOK	IN THE BOX. ALL RIGHTS RESERVED.
+				</td>
+				<td class="footer-CSInfo">CS CENTER<br>
+					평일 10:00 - 17:00<br> 070-5555-5555<br>
+					(점심시간 13:00 - 14:00)<br>
+					휴무 토요일.일요일.공휴일
+				</td>
+				<td>
+					<span class="glyphicon glyphicon-user"></span>
+					<span class="glyphicon glyphicon-user icons"></span>
+				</td>
+			</tr>
+	
+		</table>
+		</div>
+	</footer>
 </body>
 
 <script

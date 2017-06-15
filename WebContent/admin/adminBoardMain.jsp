@@ -12,40 +12,26 @@
 </head>
 <body>
 	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
-	<aside class=""> </aside>	
-	<section> <article>
+	<div class="mainboard">
+	<jsp:include page="/layout/aside.jsp" flush="false" />
+	
+	<section class="mainArticle-board"> 
+	<article >
 	<fieldset>
 		<div align="center">
 			<h2>게시판관리</h2>
 		</div>
+
 		<table width="1000px" align="center">
 			<tr>
-				<td>
-					<div class="btn-group-vertical">
-						<a href="#" class="btn btn-primary disabled">문학 </a> <a href="#"
-							class="btn btn-primary">자기계발</a> <a href="#"
-							class="btn btn-primary">과학 </a> <a href="#"
-							class="btn btn-primary">인문 </a>
-					</div>
-				</td>
-				<div class="clearfix">
-					<td width="100px" border="10px">
-						<div class="column menu">
-							<ul>
-								<li><a href="#" class="btn btn-primary">6월 A</a></li>
-								<li><a href="#" class="btn btn-primary disabled">6월 B</a></li>
-								<li><a href="#" class="btn btn-primary">6월 C</a></li>
-								<li><a href="#" class="btn btn-primary">6월 D</a></li>
-							</ul>
-						</div>
-					</td>
+	
 					<td>
 						<div class="column content">
 							<div class="panel panel-default">
 								<div class="panel-body" align="center">
 
-									<a href="#" class="btn btn-default">전체선택</a> <a href="#"
-										class="btn btn-default">삭제</a>
+									<a href="#" class="btn btn-default">전체선택</a>
+									<a href="#" class="btn btn-default">삭제</a>
 									<table class="table table-striped table-hover " align="center">
 										<thead>
 											<tr class="danger">
@@ -70,7 +56,7 @@
 											<tr>
 												<th><input type="checkbox" name="checkRow"></th>
 												<td>2</td>
-												<td><a href="/nbss/admin/insert">..... 조카 크레파스
+												<td><a href="adminBoardInsert.jsp">..... 조카 크레파스
 														어디있어요?</a></td>
 												<td>악플다는편이야</td>
 												<td>2017.06.13</td>
@@ -94,9 +80,11 @@
 				<td>
 			</tr>
 		</table>
+	
 	</fieldset>
 	</article>
 	</section>
+	</div>
 	<jsp:include page="/layout/bottom.jsp" flush="false" />
 </body>
 

@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String route = request.getContextPath(); //프로젝트 Path만 얻어옴 return /WebContent
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -13,57 +16,207 @@
 <body>
 	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
 	<section>
-	<article class="mainArticle-adminNewBook">
+	<article class="mainArticle-bookList">
 	<fieldset>
-		<legend>신간도서관리</legend>
-		<div class="mainArticle-NewBookMana">
+		<h2 class="section-title" >신간도서관리</h2>
+		<div class="adminBookList-button">
 			<a href="adminBook.jsp"><input type="button" value="등록"></a>
 			<input type="button" value="삭제"> <input type="checkbox"
 				name="checkAll" id="th_checkAll" onclick="checkAll();" /> <input
 				type="button" value="전체선택"> <a href="adminBookList.jsp"><input
 				type="button" value="이월도서로 이동"></a> <br>
-			<table>
-				<tr>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							A도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							B도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							C도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							D도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							E도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							F도서</label></td>
-				</tr>
-				<tr>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							G도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							H도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							I도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							J도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							K도서</label></td>
-					<td><img src="../image/book.jpg" class="indeximg"><br>
-						<label><input type="checkbox" value="고유번호" name="checkRow">7월
-							L도서</label></td>
-				</tr>
-			</table>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 A도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 B도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 C도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 D도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 E도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 F도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 A도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 B도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 C도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 D도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 E도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 F도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="mainArticle-bookTable">
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 A도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 B도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 C도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 D도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 E도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-2">
+				<div class="thumbnail">
+					<img src="<%=route %>/image/book.jpg" class="bookImg-main" alt="...">
+					<div class="caption">
+						<h3>6월 F도서</h3>
+						<p><lable><input type="checkbox" value="고유번호"
+							name="checkRow"></label> <a href="adminBook.html" class="btn btn-primary" role="button">수정</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>
 	</fieldset>
 	</article> 

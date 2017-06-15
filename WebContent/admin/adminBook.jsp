@@ -12,7 +12,8 @@
 </head>
 <body>
 	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
-	<section> <article class="mainArticle-adminBook">
+	<section>
+	<article class="mainArticle-adminBook">
 	<fieldset>
 		<legend>신간도서등록</legend>
 		<div class="mainArticle-insertBook">
@@ -83,7 +84,7 @@
 				</tr>
 				<tr>
 					<td colspan="4"><a href="adminNewBook.jsp"><input
-							type="submit" value="등록"></a></td>
+							type="button" value="등록"></a></td>
 				</tr>
 
 

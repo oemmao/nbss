@@ -17,14 +17,69 @@
 <body>
 	<jsp:include page="/layout/top.jsp" flush="false" />
 	<div class="mainboard">
-		<jsp:include page="/layout/aside.jsp" flush="false" />
-		<section> 
-		<article class="mainArticle-booklist">
-			<fieldset>
-				<div class="boardlegend">
-					<legend>커뮤니티</legend>
-				</div>
-				<div class="column content">
+	<aside class="mainAside-board">	
+		<div class="btn-group-vertical ">
+			<div class="btn-group open">
+  				<ul class="nav nav-pills nav-stacked">
+					<li class="dropdown">
+  					<a class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" href="#" data-toggle="dropdown">
+      					문학 <span class="caret"></span>
+   					 </a>
+    					<ul class="dropdown-menu">
+						   <li><a href="#">6월 A</a></li>
+				  		   <li><a href="#">6월 B</a></li>
+				    	   <li><a href="#">6월 C</a></li> 
+						</ul>
+					 </li>
+				 </ul>
+				 <ul class="nav nav-pills nav-stacked">
+					<li class="dropdown">
+  					<a class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" href="#" data-toggle="dropdown">
+      					자기개발 <span class="caret"></span>
+   					 </a>
+    					<ul class="dropdown-menu">
+						   <li><a href="#">6월 D</a></li>
+				  		   <li><a href="#">6월 E</a></li>
+				    	   <li><a href="#">6월 F</a></li> 
+						</ul>
+					 </li>
+				 </ul>
+				 <ul class="nav nav-pills nav-stacked">
+					<li class="dropdown">
+  					<a class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" href="#" data-toggle="dropdown">
+      					과학 <span class="caret"></span>
+   					 </a>
+    					<ul class="dropdown-menu">
+						   <li><a href="#">6월 G</a></li>				  		   
+						</ul>
+					 </li>
+				 </ul>
+				 <ul class="nav nav-pills nav-stacked">
+					<li class="dropdown">
+  					<a class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" href="#" data-toggle="dropdown">
+      					인문 <span class="caret"></span>
+   					 </a>
+    					<ul class="dropdown-menu">
+						   <li><a href="#">6월 H</a></li>
+						   <li><a href="#">6월 I</a></li>				  		   
+						</ul>
+					 </li>
+				 </ul>
+			</div>					
+		</div>		
+	 </aside>
+	 
+	<section class="mainArticle-board">
+	<article>
+	<fieldset>
+		<div align="center">
+			<h2>커뮤니티</h2>
+		</div>
+	
+		<table width="1000px" align="center">
+			<tr>
+					<td>
+						<div class="column content">
 							<div class="panel panel-default">
 								<div class="panel-body" align="center">
 
@@ -62,14 +117,17 @@
 											</tr>
 										</tbody>
 									</table>
-									<a href="boardInsert.jsp" class="btn btn-default">글쓰기</a>
+									<a href="<%=route %>/board/boardInsert.jsp" class="btn btn-default">글쓰기</a>
 								</div>
 							</div>
 						</div>
 				</div>
+				<td>
+			</tr>
+		</table>
 		
 	</fieldset>
-	</article>
+	</article> 
 	</section>
 	</div>
 	<jsp:include page="/layout/bottom.jsp" flush="false" />

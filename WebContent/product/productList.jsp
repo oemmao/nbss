@@ -35,7 +35,7 @@
 				<td colspan="3">
 					<div class="form-group">
 						<div class="col-lg-10 col-lg-offset-2 button-align">
-							<a href="index.html"><input type="button" class="btn btn-default " value="처음으로"></a>
+							<a href="<%=route %>/index.jsp"><input type="button" class="btn btn-default " value="처음으로"></a>
 						</div>
 					</div>
 				</td>
