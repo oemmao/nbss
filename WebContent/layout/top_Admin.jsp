@@ -34,7 +34,7 @@
 						<li><a href="<%=route%>/admin/adminNewBook.jsp" class="menu-font">신간도서 관리</a></li>
 						<li><a href="<%=route%>/admin/adminBookList.jsp" class="menu-font">이월도서 리스트</a></li>
 						<li class="divider"></li>
-						<li><a href="<%=route%>/admin/adminBoardMain.jsp" class="menu-font">게시판 관리</a></li>
+						<li><a href="<%=route%>/admin/board" class="menu-font">게시판 관리</a></li>
 					</ul>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

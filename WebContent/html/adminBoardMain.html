@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -11,13 +9,54 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<jsp:include page="/layout/top_Admin.jsp" flush="false" />
-	<aside class=""> </aside>	
+	<header class="mainHead">
+		<div>
+			<a href="index.jsp"><img src="../image/bookinthebox.jpg"
+				class="indexImg"></a>
+		</div>
+	</header>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav ">
+					<li class="dropdown"><a href="#"
+						class="dropdown-toggle menu-font disabled" data-toggle="dropdown"
+						role="button" aria-expanded="false">마이페이지 <span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#" class="menu-font">정보수정</a></li>
+							<li><a href="#" class="menu-font">내가 받은 책
+									목록</a></li>
+						</ul>
+					<li class="disabled"><a href="#" class="menu-font">정기배송</a></li>
+					<li class="disabled"><a href="#" class="menu-font">커뮤니티</a></li>
+					<li class="disabled"><a href="#" class="menu-font">도움말</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle"
+							data-toggle="dropdown" role="button" aria-expanded="false">관리자페이지
+						<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="adminNewBook.html">신간도서 관리</a></li>
+							<li><a href="adminBookList.html">이월도서 리스트</a></li>
+							<li class="divider"></li>
+							<li><a href="adminBoardMain.html">게시판 관리</a></li>
+						</ul>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#" class="menu-font">관리자님, 로그아웃</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<aside class=""> </aside>
 	<section> <article>
 	<fieldset>
 		<div align="center">
 			<h2>게시판관리</h2>
 		</div>
+
 		<table width="1000px" align="center">
 			<tr>
 				<td>
@@ -70,7 +109,7 @@
 											<tr>
 												<th><input type="checkbox" name="checkRow"></th>
 												<td>2</td>
-												<td><a href="/nbss/admin/insert">..... 조카 크레파스
+												<td><a href="adminBoardInsert.html">..... 조카 크레파스
 														어디있어요?</a></td>
 												<td>악플다는편이야</td>
 												<td>2017.06.13</td>
@@ -86,7 +125,7 @@
 											</tr>
 										</tbody>
 									</table>
-									<a href="boardInsert.jsp" class="btn btn-default disabled">글쓰기</a>
+									<a href="boardInsert.html" class="btn btn-default disabled">글쓰기</a>
 								</div>
 							</div>
 						</div>
@@ -95,9 +134,30 @@
 			</tr>
 		</table>
 	</fieldset>
-	</article>
 	</section>
-	<jsp:include page="/layout/bottom.jsp" flush="false" />
+	<footer class="mainFooter">
+		<table class="footer-cs-table">
+			<tr>
+				<td class="footer-mainImg"><img src="../image/bookinthebox.jpg" class="csImg"></td>
+				<td class="footer-CompanyInfo">Company : 북인더박스(BOOK IN THE BOX)<br>
+					Owner : 김선화/강태종/김진솔<br> CPO : 김선화 (bookinthebox@naver.com)<br>
+					Address : (00000)서울특별시 금천구 금은동 100 2층<br>
+					COPYRIGHT ⓒ 2017 BOOK	IN THE BOX. ALL RIGHTS RESERVED.
+				</td>
+				<td class="footer-CSInfo">CS CENTER<br>
+					평일 10:00 - 17:00<br> 070-5555-5555<br>
+					(점심시간 13:00 - 14:00)<br>
+					휴무 토요일.일요일.공휴일
+				</td>
+				<td>
+					<span class="glyphicon glyphicon-user"></span>
+					<span class="glyphicon glyphicon-user icons"></span>
+				</td>
+			</tr>
+	
+		</table>
+		</div>
+	</footer>
 </body>
 
 <script
