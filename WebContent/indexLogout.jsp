@@ -120,58 +120,6 @@
 			</div>
 		</div>
 		</div>
-		<div class="row">
-		<div class="mainArticle-bookTable">
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 J도서</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 K도서</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 L도서</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 M도서</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 N도서</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-2">
-				<div class="thumbnail">
-					<img src="image/book.jpg" class="bookImg-main" alt="...">
-					<div class="caption">
-						<h3>6월 O도서</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
 	</fieldset>
 	</article>
 	</section>
