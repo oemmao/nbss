@@ -8,24 +8,32 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Book in the Box</title>
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<style>
+	.custom-btn > ul > li > a:hover {
+		background:#881609;
+	}
+	.board-menu > ul > li > ul {
+		top: 0;
+ 		left: 110%;
+	}
+</style>
 </head>
 <body>
 	<jsp:include page="/layout/top.jsp" flush="false" />
 	<div class="mainboard">
 	<aside class="mainAside-board">	
 		<div class="btn-group-vertical ">
-			<div class="btn-group open">
+			<div class="btn-group open custom-btn board-menu">
   				<ul class="nav nav-pills nav-stacked">
 					<li class="dropdown">
   					<a class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" href="#" data-toggle="dropdown">
       					문학 <span class="caret"></span>
    					 </a>
-    					<ul class="dropdown-menu">
+    					<ul class="dropdown-menu ">
 						   <li><a href="#">6월 A</a></li>
 				  		   <li><a href="#">6월 B</a></li>
 				    	   <li><a href="#">6월 C</a></li> 
